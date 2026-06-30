@@ -75,8 +75,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <div class="badge"><div class="badge-icon">🔒</div><p>NDA available on request</p></div>
           <div class="badge"><div class="badge-icon">🆓</div><p>Free initial consultation</p></div>
         </div>
-
-        <div class="map-placeholder">🗺️</div>
+          <div class="map-placeholder">
+    <img src="../assets/img/contact.jpeg" alt="Contact Map" style="width:100%; max-width:600px;">
+</div>
+    
       </div>
 
       <!-- FORM PANEL -->
@@ -143,11 +145,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <label>Estimated Budget</label>
               <select name="budget">
                 <option value="">— Approximate budget range —</option>
-                <option>Under $5,000</option>
-                <option>$5,000 – $10,000</option>
-                <option>$10,000 – $25,000</option>
-                <option>$25,000 – $50,000</option>
-                <option>$50,000+</option>
+                <option>Under ₹5,000</option>
+                <option>₹5,000 – ₹10,000</option>
+                <option>₹10,000 – ₹25,000</option>
+                <option>₹25,000 – ₹50,000</option>
+                <option>₹50,000+</option>
                 <option>Ongoing retainer / TBD</option>
               </select>
             </div>
