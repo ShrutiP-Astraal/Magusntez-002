@@ -5,12 +5,12 @@ function navActive($page, $current) {
     return $page === $current ? ' class="active"' : '';
 }
 ?>
+  
 <nav class="nav">
   <div class="nav-inner">
-    <a href="index.php" class="nav-logo">
-      <span class="dot"></span>
-      Magus<span>ntez</span>
-    </a>
+   <a href="index.php" class="nav-logo">
+    <img src="../assets/img/mg_logo.jpeg" alt="Magusnetz Logo" height="70">
+</a>
     <ul class="nav-links">
       <li><a href="index.php"<?= navActive('index',$current) ?>>Home</a></li>
       <li><a href="services.php"<?= navActive('services',$current) ?>>Services</a></li>

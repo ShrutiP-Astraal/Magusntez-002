@@ -92,7 +92,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <h3 style="color:var(--navy);margin-bottom:.25rem">Tell Us About Your Project</h3>
           <p style="color:var(--slate);font-size:.88rem;margin-bottom:1.75rem">All fields marked * are required. We'll reply within one business day.</p>
 
-          <form method="POST" action="contact.php">
+        <form action="form_backend.php" method="POST">
             <div class="form-row">
               <div class="form-group">
                 <label>First Name *</label>

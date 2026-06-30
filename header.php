@@ -5,7 +5,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Magusnetz</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/logo4.png" />
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Google fonts-->

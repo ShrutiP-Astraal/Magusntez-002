@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS `contact_messages` (
   `flag` tinyint(1) DEFAULT '0' COMMENT '0 = New, 1 = Contacted, 2 = Closed',
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `contact_messages`
