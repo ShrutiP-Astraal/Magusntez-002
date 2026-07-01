@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Apr 14, 2026 at 06:54 PM
+-- Generation Time: Jul 01, 2026 at 10:20 AM
 -- Server version: 8.0.31
 -- PHP Version: 8.0.26
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `magusnetz_db`
 --
+CREATE DATABASE IF NOT EXISTS `magusnetz_db` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `magusnetz_db`;
 
 -- --------------------------------------------------------
 
@@ -38,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `contact_messages` (
   `flag` tinyint(1) DEFAULT '0' COMMENT '0 = New, 1 = Contacted, 2 = Closed',
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `contact_messages`
@@ -47,6 +49,34 @@ CREATE TABLE IF NOT EXISTS `contact_messages` (
 INSERT INTO `contact_messages` (`id`, `name`, `email`, `phone`, `subject`, `message`, `flag`, `created_at`) VALUES
 (1, 'Shruti Patil', 'jiaa1234@gmail.com', '8877667678', 'Seo', 'I am starting a new buisness i want a website for this', 0, '2026-02-25 07:50:57'),
 (2, 'Shruti Patil', 'jiaa1234@gmail.com', '8877667678', 'Seo', 'I want to add seo to my website', 0, '2026-02-25 08:05:46');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `newsletter_subscribers`
+--
+
+DROP TABLE IF EXISTS `newsletter_subscribers`;
+CREATE TABLE IF NOT EXISTS `newsletter_subscribers` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `email` varchar(191) COLLATE utf8mb4_general_ci NOT NULL,
+  `subscribed_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `ip_address` varchar(50) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `status` enum('Active','Unsubscribed') COLLATE utf8mb4_general_ci DEFAULT 'Active',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `email` (`email`)
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `newsletter_subscribers`
+--
+
+INSERT INTO `newsletter_subscribers` (`id`, `email`, `subscribed_at`, `ip_address`, `status`) VALUES
+(1, 'edje@ss.com', '2026-07-01 10:02:22', '::1', 'Active'),
+(2, 'eddje@ss.com', '2026-07-01 10:03:20', '::1', 'Active'),
+(3, 'eddjehb@ss.com', '2026-07-01 10:04:23', '::1', 'Active'),
+(4, 'eddjehuhb@ss.com', '2026-07-01 10:05:00', '::1', 'Active'),
+(5, 'eddjehhuhb@ss.com', '2026-07-01 10:05:20', '::1', 'Active');
 
 -- --------------------------------------------------------
 
