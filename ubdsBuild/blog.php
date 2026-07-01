@@ -22,6 +22,29 @@
 .author-dot { width:24px; height:24px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:.7rem; font-weight:700; color:white; }
 .tag-cloud { display:flex; flex-wrap:wrap; gap:.5rem; margin-bottom:2.5rem; }
 @media(max-width:750px){ .blog-grid,.blog-featured{ grid-column:unset; grid-template-columns:1fr } .blog-featured-body{ padding:1.5rem } }
+.alert-success{
+    background:#d1fae5;
+    color:#065f46;
+    padding:15px;
+    border-radius:8px;
+    margin-bottom:20px;
+}
+
+.alert-warning{
+    background:#fef3c7;
+    color:#92400e;
+    padding:15px;
+    border-radius:8px;
+    margin-bottom:20px;
+}
+
+.alert-danger{
+    background:#fee2e2;
+    color:#991b1b;
+    padding:15px;
+    border-radius:8px;
+    margin-bottom:20px;
+}
 </style>
 </head>
 <body>
@@ -144,16 +167,65 @@
       </div>
 
     </div>
+<div></div>
+
+
 
     <!-- NEWSLETTER -->
     <div style="background:var(--silver);border-radius:var(--radius);padding:3rem;text-align:center;margin-top:4rem;border:1px solid var(--border)">
+
       <span class="section-eyebrow">Stay Sharp</span>
+      <?php
+
+if(isset($_GET['newsletter'])){
+
+    if($_GET['newsletter']=="success"){
+        echo '<div class="alert-success newsletter-alert">
+        Thank you! You have successfully subscribed.
+        </div>';
+    }
+    
+
+    if($_GET['newsletter']=="exists"){
+        echo '<div class="alert-warning newsletter-alert">
+        This email is already subscribed.
+        </div>';
+    }
+
+    if($_GET['newsletter']=="invalid"){
+        echo '<div class="alert-danger newsletter-alert">
+        Please enter a valid email address.
+        </div>';
+    }
+
+    if($_GET['newsletter']=="error"){
+        echo '<div class="alert-danger newsletter-alert">
+        Something went wrong. Please try again.
+        </div>';
+    }
+
+}
+
+?>
       <h2 style="color:var(--navy);margin:.75rem 0 .5rem">Get Insights in Your Inbox</h2>
       <p style="color:var(--slate);max-width:480px;margin:0 auto 2rem">One email every two weeks. Practical articles, no fluff, no promotions. Join 3,400+ digital professionals.</p>
-      <div style="display:flex;gap:1rem;max-width:420px;margin:0 auto;flex-wrap:wrap">
-        <input type="email" placeholder="Your work email address" style="flex:1;min-width:200px">
-        <button class="btn-primary" style="white-space:nowrap">Subscribe →</button>
-      </div>
+      <form action="newsletter_backend.php" method="POST"
+      style="display:flex;gap:1rem;max-width:420px;margin:0 auto;flex-wrap:wrap">
+
+    <input
+        type="email"
+        name="email"
+        placeholder="Your work email address"
+        required
+        style="flex:1;min-width:200px">
+
+    <button class="btn-primary"
+            type="submit"
+            style="white-space:nowrap">
+        Subscribe →
+    </button>
+
+</form>
     </div>
   </div>
 </section>
@@ -167,6 +239,25 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
     btn.classList.add('active');
   });
 });
+</script>
+<script>
+setTimeout(function () {
+
+    // Hide alert
+    const alert = document.querySelector('.newsletter-alert');
+    if (alert) {
+        alert.style.display = 'none';
+    }
+
+    // Remove URL parameter
+    const url = new URL(window.location);
+
+    if (url.searchParams.has('newsletter')) {
+        url.searchParams.delete('newsletter');
+        window.history.replaceState({}, document.title, url.pathname + url.search);
+    }
+
+}, 15000);
 </script>
 </body>
 </html>

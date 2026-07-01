@@ -76,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <div class="badge"><div class="badge-icon">🆓</div><p>Free initial consultation</p></div>
         </div>
           <div class="map-placeholder">
-    <img src="../assets/img/contact.jpeg" alt="Contact Map" style="width:100%; max-width:600px;">
+    <img src="../assets/img/contactpage.jpg" alt="Contact Map" style="width:100%; max-width:600px;">
 </div>
     
       </div>
