@@ -58,10 +58,11 @@
     <!-- FEATURED CASE STUDIES -->
     <div class="case-study">
       <div class="case-inner">
-        <div class="case-visual thumb-1">🛒</div>
+        <div class="case-visual thumb-1"> <img src="../assets/img/retailflow.jfif" alt="RetailFlow E-Commerce Platform"
+         class="case-img"></div>
         <div class="case-content">
           <div class="case-category">E-Commerce • Headless Commerce</div>
-          <h3>RetailFlow — Next-Gen Online Store</h3>
+          <h3>RetailFlow ext-Gen Online Store</h3>
           <p>RetailFlow needed to replace a slow Magento installation with a modern headless store. We architected a Next.js storefront backed by Shopify Plus, with a custom PWA layer enabling offline browsing and sub-1-second page loads.</p>
           <div class="card-tags"><span class="tag">Next.js</span><span class="tag">Shopify Plus</span><span class="tag">PWA</span><span class="tag">Stripe</span></div>
           <div class="case-results">
@@ -75,7 +76,10 @@
 
     <div class="case-study">
       <div class="case-inner" style="direction:rtl">
-        <div class="case-visual thumb-2" style="direction:ltr">🏥</div>
+        <div class="case-visual thumb-2">
+            <img src="../assets/img/healthbridge.png."
+         class="case-img">
+</div>
         <div class="case-content" style="direction:ltr">
           <div class="case-category">Mobile App • Healthcare</div>
           <h3>HealthBridge — Patient Engagement App</h3>
@@ -92,7 +96,8 @@
 
     <div class="case-study">
       <div class="case-inner">
-        <div class="case-visual thumb-3">🏗️</div>
+        <div class="case-visual thumb-3">  <img src="../assets/img/builder.jfif"
+         class="case-img"></div>
         <div class="case-content">
           <div class="case-category">SaaS • Construction Tech</div>
           <h3>BuilderIQ — Project Management SaaS</h3>
@@ -115,8 +120,9 @@
 
     <div class="card-grid card-grid-3">
       <div class="portfolio-card">
-        <div class="portfolio-thumb thumb-4">🍽️</div>
-        <div class="portfolio-body">
+        <div class="portfolio-thumb thumb-4"><img src="../assets/img/foodnest.jfif"
+         class="case-img"></div>
+        <div class="portfolio-body"></div>
           <h3>FoodNest — Restaurant Ordering PWA</h3>
           <p>Offline-capable PWA for a restaurant chain with in-app ordering, loyalty rewards, and push notification campaigns.</p>
           <div class="portfolio-meta">
@@ -124,9 +130,9 @@
             <span style="font-size:.8rem;color:var(--slate)">F&B</span>
           </div>
         </div>
-      </div>
       <div class="portfolio-card">
-        <div class="portfolio-thumb thumb-5">🎓</div>
+        <div class="portfolio-thumb thumb-5"><img src="../assets/img/edureach.jfif"
+         class="case-img"></div>
         <div class="portfolio-body">
           <h3>EduReach — Learning Management System</h3>
           <p>Custom LMS for a university with course authoring, video streaming, assessments, certificates, and a gamified learner dashboard.</p>
@@ -137,7 +143,8 @@
         </div>
       </div>
       <div class="portfolio-card">
-        <div class="portfolio-thumb thumb-6">🏦</div>
+        <div class="portfolio-thumb thumb-6"><img src="../assets/img/novapay.png"
+         class="case-img"></div>
         <div class="portfolio-body">
           <h3>NovaPay — Fintech Dashboard</h3>
           <p>Real-time transaction dashboard, multi-currency wallet, KYC onboarding flow, and admin analytics for a fintech startup.</p>
@@ -148,7 +155,8 @@
         </div>
       </div>
       <div class="portfolio-card">
-        <div class="portfolio-thumb thumb-7">🏡</div>
+        <div class="portfolio-thumb thumb-7"><img src="../assets/img/images (1).jfif"
+         class="case-img"></div>
         <div class="portfolio-body">
           <h3>EstateView — Property Listing Portal</h3>
           <p>Property search portal with map integration, virtual tours, agent CRM, and mortgage calculator — 40K+ listings.</p>
@@ -159,7 +167,8 @@
         </div>
       </div>
       <div class="portfolio-card">
-        <div class="portfolio-thumb thumb-8">💼</div>
+        <div class="portfolio-thumb thumb-8"><img src="../assets/img/images.jfif"
+         class="case-img"></div>
         <div class="portfolio-body">
           <h3>TalentHub — Recruitment Platform</h3>
           <p>AI-assisted job matching platform with applicant tracking, interview scheduling, and employer branding pages.</p>
@@ -170,7 +179,8 @@
         </div>
       </div>
       <div class="portfolio-card">
-        <div class="portfolio-thumb thumb-9">🌿</div>
+        <div class="portfolio-thumb thumb-9"><img src="../assets/img/greencart.jfif"
+         class="case-img"></div>
         <div class="portfolio-body">
           <h3>GreenCart — Organic Grocery App</h3>
           <p>Flutter mobile app for an organic grocery delivery service — slot booking, live order tracking, subscription boxes, and loyalty.</p>
