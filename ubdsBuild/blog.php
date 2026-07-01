@@ -73,8 +73,10 @@
     <div class="blog-grid">
       <!-- FEATURED -->
       <div class="blog-featured">
-        <div class="blog-featured-thumb">⚡</div>
-        <div class="blog-featured-body">
+       <div class="blog-featured-thumb">
+       <img src="../assets/img/commerce.jpeg" alt="Featured Blog" width="100%">
+          </div>        
+          <div class="blog-featured-body">
           <span class="blog-cat">PWA · Performance</span>
           <h2 style="color:var(--navy);font-size:1.7rem;margin-bottom:.75rem">Why Every E-Commerce Site Should Be a PWA in 2026</h2>
           <p style="color:var(--slate);margin-bottom:1.25rem">Progressive Web Apps aren't a niche technology anymore. With major retailers reporting 30–50% improvements in conversion rate after PWA adoption, we break down exactly what's changed, what's driving results, and how to evaluate whether a PWA migration makes sense for your store.</p>
@@ -89,8 +91,8 @@
       </div>
 
       <div class="blog-card">
-        <div class="blog-thumb" style="background:linear-gradient(135deg,#d1fae5,#a7f3d0)">🎨</div>
-        <div class="blog-body">
+       <img src="../assets/img/ui.jpeg" alt="Featured Blog" width="100%" >
+         <div class="blog-body" >
           <span class="blog-cat">UI/UX Design</span>
           <h3>Design Systems That Last: A Practitioner's Guide</h3>
           <p>How we build component libraries that teams actually use — and the common mistakes that turn a design system into shelf-ware.</p>
@@ -100,9 +102,8 @@
           </div>
         </div>
       </div>
-
       <div class="blog-card">
-        <div class="blog-thumb" style="background:linear-gradient(135deg,#fef3c7,#fde68a)">📱</div>
+       <img src="../assets/img/mobiledevelopment.jpeg" alt="Featured Blog" width="100%">
         <div class="blog-body">
           <span class="blog-cat">Mobile Development</span>
           <h3>React Native vs Flutter in 2026: The Honest Comparison</h3>
@@ -115,7 +116,7 @@
       </div>
 
       <div class="blog-card">
-        <div class="blog-thumb" style="background:linear-gradient(135deg,#fce7f3,#fbcfe8)">🔍</div>
+       <img src="../assets/img/seo.jpeg" alt="Featured Blog">
         <div class="blog-body">
           <span class="blog-cat">SEO</span>
           <h3>Core Web Vitals in 2026: What Still Matters</h3>
@@ -128,7 +129,7 @@
       </div>
 
       <div class="blog-card">
-        <div class="blog-thumb" style="background:linear-gradient(135deg,#e0f2fe,#bae6fd)">🤖</div>
+       <img src="../assets/img/ai.jpeg" alt="Featured Blog">
         <div class="blog-body">
           <span class="blog-cat">AI & Automation</span>
           <h3>Practical AI Features Your Web App Should Have in 2026</h3>
@@ -141,7 +142,7 @@
       </div>
 
       <div class="blog-card">
-        <div class="blog-thumb" style="background:linear-gradient(135deg,#f3e8ff,#e9d5ff)">🏗️</div>
+       <img src="../assets/img/web.jpeg" alt="Featured Blog">
         <div class="blog-body">
           <span class="blog-cat">Web Architecture</span>
           <h3>When Not to Use a Headless CMS (And What to Use Instead)</h3>
@@ -154,7 +155,7 @@
       </div>
 
       <div class="blog-card">
-        <div class="blog-thumb" style="background:linear-gradient(135deg,#ffedd5,#fed7aa)">📊</div>
+       <img src="../assets/img/strategy.jpeg" alt="Featured Blog" height="57%" width="100%">
         <div class="blog-body">
           <span class="blog-cat">Strategy</span>
           <h3>How to Write a Digital Brief That Gets Great Results</h3>
