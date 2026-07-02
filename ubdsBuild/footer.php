@@ -3,7 +3,7 @@
   <div class="footer-inner">
     <div class="footer-top">
       <div class="footer-brand">
-        <h3>Magusntez</h3>
+        <img src="../assets/img/mg_logo.jpeg" alt="Magusntez Logo" class="logo" width="400" height="200px">
         <p>We craft digital experiences that drive results — from pixel-perfect websites to enterprise-grade web applications, mobile apps, and beyond. Your digital transformation partner.</p>
         <div class="social-links" style="margin-top:1.25rem">
           <a href="#" class="social-link" title="LinkedIn">in</a>
@@ -11,6 +11,8 @@
           <a href="#" class="social-link" title="Behance">Bē</a>
           <a href="#" class="social-link" title="GitHub">⌥</a>
           <a href="#" class="social-link" title="Dribbble">⊛</a>
+          <a href="#" class="social-link" title="Instagram">⌾</a>
+
         </div>
       </div>
       <div class="footer-col">

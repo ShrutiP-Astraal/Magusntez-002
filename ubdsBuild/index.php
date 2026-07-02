@@ -247,16 +247,16 @@
         <div class="testimonial-stars">★★★★★</div>
         <p class="testimonial-text">"Magusntez transformed our outdated site into a high-converting platform. Our online revenue grew 140% in just four months. Their process was transparent and professional throughout."</p>
         <div class="testimonial-author">
-          <div class="author-avatar">SR</div>
-          <div><div class="author-name">Sarah Reynolds</div><div class="author-role">CEO, NovaTech Solutions</div></div>
+          <div class="author-avatar">RD</div>
+          <div><div class="author-name">Rhea D'Souza</div><div class="author-role">CEO, NovaTech Solutions</div></div>
         </div>
       </div>
       <div class="testimonial-card">
         <div class="testimonial-stars">★★★★★</div>
         <p class="testimonial-text">"The PWA they built for us replaced our clunky native app. Load times dropped by 60% and our engagement metrics have never been higher. Incredible technical execution."</p>
         <div class="testimonial-author">
-          <div class="author-avatar" style="background:#F59E0B;color:#0F1F3D">MK</div>
-          <div><div class="author-name">Marcus Kim</div><div class="author-role">CTO, RetailFlow Inc.</div></div>
+          <div class="author-avatar" style="background:#F59E0B;color:#0F1F3D">NF</div>
+          <div><div class="author-name">Neil Fernandes</div><div class="author-role">CTO, RetailFlow Inc.</div></div>
         </div>
       </div>
       <div class="testimonial-card">

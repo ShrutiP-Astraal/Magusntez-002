@@ -35,7 +35,9 @@
         <p style="color:var(--slate); margin-bottom:1.25rem">Over eight years, we've delivered 200+ projects — from fast-growth startups launching their first product, to established enterprises rebuilding legacy systems. We don't chase volume. We choose clients who care as much about their product as we do.</p>
         <p style="color:var(--slate)">Today our team of designers, engineers, and strategists operates across time zones, delivering work that holds up under scrutiny — and stands out in the market.</p>
       </div>
-      <div class="about-image-placeholder">🏛️</div>
+      <div class="about-image-placeholder">
+            <img src="../assets/img/maker.jpeg" alt="maker" style="width:100%; max-width:600px; height: 400px; ">
+      </div>
     </div>
   </div>
 </section>

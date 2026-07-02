@@ -45,21 +45,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <div class="contact-icon">📧</div>
           <div>
             <div class="contact-label">Email</div>
-            <div class="contact-value">hello@magusntez.com</div>
+            <div class="contact-value">magusnetz@gmail.com</div>
           </div>
         </div>
         <div class="contact-item">
           <div class="contact-icon">📞</div>
           <div>
             <div class="contact-label">Phone</div>
-            <div class="contact-value">+1 (555) 0190-0200</div>
+            <div class="contact-value">+91 7350597500</div>
           </div>
         </div>
         <div class="contact-item">
           <div class="contact-icon">🕐</div>
           <div>
             <div class="contact-label">Working Hours</div>
-            <div class="contact-value">Mon–Fri, 9:00 AM – 6:00 PM (GMT+0)</div>
+            <div class="contact-value">Available Mon–Sat | 10 AM – 7 PM (IST+0)</div>
           </div>
         </div>
         <div class="contact-item">
@@ -69,7 +69,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="contact-value">Remote-first · Available globally</div>
           </div>
         </div>
-
         <div class="trust-badges">
           <div class="badge"><div class="badge-icon">⚡</div><p>1-day response guarantee</p></div>
           <div class="badge"><div class="badge-icon">🔒</div><p>NDA available on request</p></div>
