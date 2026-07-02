@@ -58,7 +58,7 @@
     <!-- FEATURED CASE STUDIES -->
     <div class="case-study">
       <div class="case-inner">
-        <div class="case-visual thumb-1"> <img src="../assets/img/retailflow.jfif" alt="RetailFlow E-Commerce Platform"
+        <div class="case-visual thumb-1"> <img src="../assets/img/retail1.png" alt="RetailFlow E-Commerce Platform"
          class="case-img"></div>
         <div class="case-content">
           <div class="case-category">E-Commerce • Headless Commerce</div>
@@ -77,7 +77,7 @@
     <div class="case-study">
       <div class="case-inner" style="direction:rtl">
         <div class="case-visual thumb-2">
-            <img src="../assets/img/healthbridge.png."
+            <img src="../assets/img/he1.jpg"
          class="case-img">
 </div>
         <div class="case-content" style="direction:ltr">
@@ -96,7 +96,7 @@
 
     <div class="case-study">
       <div class="case-inner">
-        <div class="case-visual thumb-3">  <img src="../assets/img/builder.jfif"
+        <div class="case-visual thumb-3">  <img src="../assets/img/bu1.jpg"
          class="case-img"></div>
         <div class="case-content">
           <div class="case-category">SaaS • Construction Tech</div>
@@ -120,7 +120,7 @@
 
     <div class="card-grid card-grid-3">
       <div class="portfolio-card">
-        <div class="portfolio-thumb thumb-4"><img src="../assets/img/foodnest.jfif"
+        <div class="portfolio-thumb thumb-4"><img src="../assets/img/food1.webp."
          class="case-img"></div>
         <div class="portfolio-body"></div>
           <h3>FoodNest — Restaurant Ordering PWA</h3>
@@ -131,7 +131,7 @@
           </div>
         </div>
       <div class="portfolio-card">
-        <div class="portfolio-thumb thumb-5"><img src="../assets/img/edureach.jfif"
+        <div class="portfolio-thumb thumb-5"><img src="../assets/img/edu1.jfif."
          class="case-img"></div>
         <div class="portfolio-body">
           <h3>EduReach — Learning Management System</h3>
@@ -143,7 +143,7 @@
         </div>
       </div>
       <div class="portfolio-card">
-        <div class="portfolio-thumb thumb-6"><img src="../assets/img/novapay.png"
+        <div class="portfolio-thumb thumb-6"><img src="../assets/img/nova1.webp"
          class="case-img"></div>
         <div class="portfolio-body">
           <h3>NovaPay — Fintech Dashboard</h3>
@@ -155,7 +155,7 @@
         </div>
       </div>
       <div class="portfolio-card">
-        <div class="portfolio-thumb thumb-7"><img src="../assets/img/images (1).jfif"
+        <div class="portfolio-thumb thumb-7"><img src="../assets/img/e2.webp"
          class="case-img"></div>
         <div class="portfolio-body">
           <h3>EstateView — Property Listing Portal</h3>
@@ -167,7 +167,7 @@
         </div>
       </div>
       <div class="portfolio-card">
-        <div class="portfolio-thumb thumb-8"><img src="../assets/img/images.jfif"
+        <div class="portfolio-thumb thumb-8"><img src="../assets/img/talenthub1.png"
          class="case-img"></div>
         <div class="portfolio-body">
           <h3>TalentHub — Recruitment Platform</h3>
@@ -179,7 +179,7 @@
         </div>
       </div>
       <div class="portfolio-card">
-        <div class="portfolio-thumb thumb-9"><img src="../assets/img/greencart.jfif"
+        <div class="portfolio-thumb thumb-9"><img src="../assets/img/green1.png"
          class="case-img"></div>
         <div class="portfolio-body">
           <h3>GreenCart — Organic Grocery App</h3>
