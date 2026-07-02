@@ -7,11 +7,11 @@
 <link rel="stylesheet" href="style.css">
 <style>
 .values-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5rem; }
-.value-card { border-left: 4px solid var(--indigo); padding: 1.5rem; background: var(--off-white); border-radius: 0 var(--radius) var(--radius) 0; }
+.value-card { border-left: 4px solid #F4B400; padding: 1.5rem; background: var(--off-white); border-radius: 0 var(--radius) var(--radius) 0; }
 .value-card h4 { color: var(--navy); margin-bottom: .4rem; font-family: 'Inter', sans-serif; font-size: 1rem; font-weight: 700; }
 .value-card p { font-size: 0.88rem; color: var(--slate); }
 .about-intro { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
-.about-image-placeholder { height: 400px; background: linear-gradient(135deg, var(--silver) 0%, #c7d2fe 100%); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-size: 6rem; }
+.about-image-placeholder { height: 400px; background: linear-gradient(135deg, #F5F9FF 0%, #DDEBFF 100%); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-size: 6rem; }
 @media(max-width:700px){ .about-intro,.values-grid{ grid-template-columns:1fr } }
 </style>
 </head>

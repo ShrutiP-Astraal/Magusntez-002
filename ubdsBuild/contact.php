@@ -8,10 +8,10 @@
 <style>
 .contact-page { padding: 80px 5%; }
 .trust-badges { display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; margin-top:2.5rem; }
-.badge { background:var(--silver); border-radius:10px; padding:1.25rem; text-align:center; }
+.badge { background: #F5F9FF; border-radius:10px; padding:1.25rem; text-align:center; }
 .badge .badge-icon { font-size:1.5rem; margin-bottom:.4rem; }
 .badge p { font-size:.8rem; color:var(--slate); font-weight:500; }
-.map-placeholder { background:linear-gradient(135deg,var(--silver),#c7d2fe); border-radius:var(--radius); height:200px; display:flex; align-items:center; justify-content:center; font-size:2.5rem; margin-top:2rem; border:1px solid var(--border); }
+.map-placeholder { background:linear-gradient(135deg, #F5F9FF, #DDEBFF); border-radius:var(--radius); height:200px; display:flex; align-items:center; justify-content:center; font-size:2.5rem; margin-top:2rem; border:1px solid var(--border); }
 .success-msg { display:none; background:#d1fae5; border:1px solid #6ee7b7; color:#065f46; border-radius:8px; padding:1rem 1.25rem; margin-top:1rem; font-size:.92rem; }
 </style>
 </head>
