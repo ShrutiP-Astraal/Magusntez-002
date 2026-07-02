@@ -48,7 +48,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; <?= date('Y') ?> Magusntez Digital Studio. All rights reserved.</p>
+      <p>&copy;2026  Magusntez Digital Studio. All rights reserved.</p>
       <p style="font-size:0.8rem">Crafted with ♥ for the web</p>
     </div>
   </div>
