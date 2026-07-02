@@ -87,50 +87,50 @@
     </div>
     <div class="card-grid card-grid-4">
       <div class="card team-card">
-        <div class="team-avatar" style="background:var(--indigo)">AJ</div>
-        <h4>Alex Jordan</h4>
+        <div class="team-avatar" style="background:var(--indigo)">SP</div>
+        <h4>Shruti Patil</h4>
         <div class="role">Founder & Creative Director</div>
         <p style="font-size:.85rem; color:var(--slate)">12 years in product design. Former lead designer at two Series B startups. Obsessed with the space between beautiful and functional.</p>
       </div>
       <div class="card team-card">
-        <div class="team-avatar" style="background:#0891B2">RM</div>
-        <h4>Riya Menon</h4>
+        <div class="team-avatar" style="background:#0891B2">AP</div>
+        <h4>Aruna Patil</h4>
         <div class="role">Head of Engineering</div>
         <p style="font-size:.85rem; color:var(--slate)">Full-stack architect with deep expertise in React, Node.js, and cloud infrastructure. Ex-Amazon, ex-Grab. Builder of systems that scale.</p>
       </div>
       <div class="card team-card">
-        <div class="team-avatar" style="background:#059669">OT</div>
-        <h4>Omar Takeda</h4>
+        <div class="team-avatar" style="background:#059669">JK</div>
+        <h4>Jaee Kashelkar</h4>
         <div class="role">Lead Mobile Developer</div>
         <p style="font-size:.85rem; color:var(--slate)">React Native and Flutter specialist. 8+ years building apps with 4.5+ star ratings. Passionate about performance and offline-first design.</p>
       </div>
       <div class="card team-card">
-        <div class="team-avatar" style="background:#D97706">SB</div>
-        <h4>Sofia Bertrand</h4>
+        <div class="team-avatar" style="background:#D97706">SL</div>
+        <h4>Sunita Lima</h4>
         <div class="role">Digital Strategy Lead</div>
         <p style="font-size:.85rem; color:var(--slate)">Former McKinsey consultant turned digital strategist. Bridges business goals with technical execution for clients who need both clarity and ambition.</p>
       </div>
       <div class="card team-card">
-        <div class="team-avatar" style="background:#7C3AED">KL</div>
-        <h4>Kai Lin</h4>
+        <div class="team-avatar" style="background:#7C3AED">SD</div>
+        <h4>Sapna Desai</h4>
         <div class="role">UX Research Lead</div>
         <p style="font-size:.85rem; color:var(--slate)">Human factors specialist with an academic background in cognitive psychology. Turns research insights into design decisions that users actually feel.</p>
       </div>
       <div class="card team-card">
-        <div class="team-avatar" style="background:#BE185D">PN</div>
-        <h4>Priya Nair</h4>
+        <div class="team-avatar" style="background:#BE185D">PS</div>
+        <h4>Prachi Sutar</h4>
         <div class="role">Content & SEO Director</div>
         <p style="font-size:.85rem; color:var(--slate)">10 years in organic growth. Has taken three brands from zero to 100K+ monthly organic sessions. Content strategy as competitive advantage.</p>
       </div>
       <div class="card team-card">
-        <div class="team-avatar" style="background:#0F766E">DK</div>
-        <h4>Dmitri Kozlov</h4>
+        <div class="team-avatar" style="background:#0F766E">SP</div>
+        <h4>Sonali Pawar</h4>
         <div class="role">DevOps & Cloud Architect</div>
         <p style="font-size:.85rem; color:var(--slate)">AWS Solutions Architect (Professional). Kubernetes, CI/CD, and infrastructure-as-code expert. Makes complex deployments feel routine.</p>
       </div>
       <div class="card team-card">
-        <div class="team-avatar" style="background:#92400E">LN</div>
-        <h4>Lena Novak</h4>
+        <div class="team-avatar" style="background:#92400E">VA</div>
+        <h4>Vaishnavi Anvekar</h4>
         <div class="role">Project Director</div>
         <p style="font-size:.85rem; color:var(--slate)">The person who keeps every project on time, on scope, and on budget — while keeping clients informed and happy at every stage.</p>
       </div>
