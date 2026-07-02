@@ -9,7 +9,7 @@
 .pricing-intro { text-align:center; max-width: 680px; margin: 0 auto 3rem; }
 .pricing-toggle { display:flex; align-items:center; justify-content:center; gap:1rem; margin-bottom:3rem; }
 .toggle-label { font-weight:600; color:var(--slate); font-size:.9rem; }
-.toggle-switch { position:relative; width:52px; height:28px; background:var(--indigo); border-radius:20px; cursor:pointer; }
+.toggle-switch { position:relative; width:52px; height:28px; background: #F4B400; border-radius:20px; cursor:pointer; }
 .toggle-switch::after { content:''; position:absolute; top:3px; left:3px; width:22px; height:22px; background:white; border-radius:50%; transition:left .2s; }
 .toggle-save { background:var(--gold); color:var(--navy); font-size:.72rem; font-weight:700; padding:3px 10px; border-radius:20px; }
 .faq-item { border-bottom:1px solid var(--border); padding:1.5rem 0; }
@@ -22,7 +22,7 @@
 .retainer-price span { font-size:1rem; color:var(--slate); font-family:'Inter',sans-serif; }
 .retainer-card ul { list-style:none; margin-top:1rem; }
 .retainer-card li { font-size:.85rem; color:var(--slate); padding:.35rem 0; border-bottom:1px solid var(--border); display:flex; gap:.5rem; }
-.retainer-card li::before { content:'✓'; color:var(--indigo); font-weight:700; }
+.retainer-card li::before { content:'✓'; color: #F4B400; font-weight:700; }
 @media(max-width:800px){ .retainer-grid{ grid-template-columns:1fr 1fr } }
 @media(max-width:500px){ .retainer-grid{ grid-template-columns:1fr } }
 </style>

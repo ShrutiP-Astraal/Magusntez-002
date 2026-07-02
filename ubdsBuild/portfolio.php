@@ -6,16 +6,16 @@
 <title>Portfolio — Magusntez Digital Studio</title>
 <link rel="stylesheet" href="style.css">
 <style>
-.portfolio-thumb { background: linear-gradient(135deg, var(--silver) 0%, #dde4f5 100%); }
-.thumb-1 { background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%); }
-.thumb-2 { background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%); }
-.thumb-3 { background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); }
-.thumb-4 { background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%); }
-.thumb-5 { background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%); }
-.thumb-6 { background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%); }
-.thumb-7 { background: linear-gradient(135deg, #ffedd5 0%, #fed7aa 100%); }
-.thumb-8 { background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); }
-.thumb-9 { background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); }
+.portfolio-thumb { background: linear-gradient(135deg, #F5F9FF 0%, #DDEBFF 100%); }
+.thumb-1 { background: linear-gradient(135deg, #F5F9FF 0%, #DDEBFF 100%); }
+.thumb-2 { background: linear-gradient(135deg, #EAF7FF 0%, #CFE8FF 100%); }
+.thumb-3 { background: linear-gradient(135deg, #FFF8E6 0%, #FFE8A3 100%); }
+.thumb-4 { background: linear-gradient(135deg, #F5F9FF 0%, #DDEBFF 100%); }
+.thumb-5 { background: linear-gradient(135deg, #EAF7FF 0%, #CFE8FF 100%); }
+.thumb-6 { background: linear-gradient(135deg, #F5F9FF 0%, #DDEBFF 100%); }
+.thumb-7 { background: linear-gradient(135deg, #FFF8E6 0%, #FFE8A3 100%); }
+.thumb-8 { background: linear-gradient(135deg, #EAF7FF 0%, #CFE8FF 100%); }
+.thumb-9 { background: linear-gradient(135deg, #F5F9FF 0%, #DDEBFF 100%); }
 .case-study {
   background: var(--white); border: 1px solid var(--border);
   border-radius: var(--radius); overflow: hidden;
@@ -25,7 +25,7 @@
 .case-visual { min-height: 320px; display: flex; align-items: center; justify-content: center; font-size: 5rem; }
 .case-content { padding: 3rem; }
 .case-content h3 { font-size: 1.6rem; color: var(--navy); margin-bottom: .5rem; }
-.case-category { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--indigo); margin-bottom: 1rem; }
+.case-category { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: #012146;margin-bottom: 1rem; }
 .case-content p { color: var(--slate); margin-bottom: 1.5rem; }
 .case-results { display: grid; grid-template-columns: repeat(3,1fr); gap: 1rem; margin-top: 1.5rem; }
 .result-stat { text-align: center; }

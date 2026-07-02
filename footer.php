@@ -1,11 +1,11 @@
 
 <style>
     .footer_custom {
-    background: #0f172a; /* dark premium look */
+    background: #123A63; /* dark premium look */
 }
 
 .footer-link {
-    color: #cbd5e1;
+    color: #DCE8F5;
     text-decoration: none;
     display: block;
     margin-bottom: 6px;
@@ -13,7 +13,7 @@
 }
 
 .footer-link:hover {
-    color: #ffffff;
+    color: #F4B400;
     padding-left: 4px;
 }
 </style><!-- ================= FOOTER ================= -->

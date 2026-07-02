@@ -19,6 +19,7 @@ function navActive($page, $current) {
       <li><a href="about.php"<?= navActive('about',$current) ?>>About</a></li>
       <li><a href="pricing.php"<?= navActive('pricing',$current) ?>>Pricing</a></li>
       <li><a href="blog.php"<?= navActive('blog',$current) ?>>Insights</a></li>
+      <li><a href="privacy-policy.php"<?= navActive('privacy-policy',$current) ?>>Privacy Policy</a></li>
       <li><a href="contact.php"<?= navActive('contact',$current) ?> class="nav-cta<?= $current==='contact'?' active':'' ?>">Get a Quote</a></li>
     </ul>
   </div>
