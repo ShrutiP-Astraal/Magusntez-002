@@ -3,8 +3,10 @@
   <div class="footer-inner">
     <div class="footer-top">
       <div class="footer-brand">
-        <img src="../assets/img/mg_logo.jpeg" alt="Magusntez Logo" class="logo" width="400" height="200px">
-        <p>We craft digital experiences that drive results — from pixel-perfect websites to enterprise-grade web applications, mobile apps, and beyond. Your digital transformation partner.</p>
+        <h3>Why choose Magusntez?</h3>
+        <p> We craft digital experiences that drive results—from pixel-perfect websites to enterprise-grade web applications, mobile apps, and beyond. Your digital transformation partner.
+
+Our team combines creativity, innovation, and cutting-edge technology to build scalable, user-centric solutions tailored to your business needs. We are committed to delivering exceptional quality, seamless performance, and long-term value that empowers your brand to thrive in the digital era.</p>
         <div class="social-links" style="margin-top:1.25rem">
           <a href="#" class="social-link" title="LinkedIn">in</a>
           <a href="#" class="social-link" title="Twitter">𝕏</a>
