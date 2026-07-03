@@ -57,7 +57,7 @@ img { max-width: 100%; display: block; }
   font-family: 'Playfair Display', serif;
   font-size: 1.4rem; font-weight: 700;
   color: var(--navy); white-space: nowrap;
-  display: flex; align-items: center; gap: 10px;
+  display: flex; align-items: center; gap: 15px;
 }
 .nav-logo span { color: var(--gold); }
 .nav-logo .dot { width: 8px; height: 8px; background: var(--gold); border-radius: 50%; display: inline-block; }

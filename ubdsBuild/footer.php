@@ -7,13 +7,14 @@
         <p> We craft digital experiences that drive results—from pixel-perfect websites to enterprise-grade web applications, mobile apps, and beyond. Your digital transformation partner.
 
 Our team combines creativity, innovation, and cutting-edge technology to build scalable, user-centric solutions tailored to your business needs. We are committed to delivering exceptional quality, seamless performance, and long-term value that empowers your brand to thrive in the digital era.</p>
-        <div class="social-links" style="margin-top:1.25rem">
-          <a href="#" class="social-link" title="LinkedIn">in</a>
-          <a href="#" class="social-link" title="Twitter">𝕏</a>
-          <a href="#" class="social-link" title="Behance">Bē</a>
-          <a href="#" class="social-link" title="GitHub">⌥</a>
-          <a href="#" class="social-link" title="Dribbble">⊛</a>
-          <a href="#" class="social-link" title="Instagram">⌾</a>
+<div class="social-links" style="margin-top:1.25rem">
+        <a href="contact.php" class="cta-btn">
+            Get Started →
+        </a>
+
+        <a href="portfolio.php" class="cta-btn secondary-btn">
+           <strong><u>View Portfolio</u></strong>
+        </a>
 
         </div>
       </div>

@@ -131,7 +131,7 @@
           </div>
         </div>
       <div class="portfolio-card">
-        <div class="portfolio-thumb thumb-5"><img src="../assets/img/edu1.jfif."
+        <div class="portfolio-thumb thumb-5"><img src="../assets/img/edureach.jpeg"
          class="case-img"></div>
         <div class="portfolio-body">
           <h3>EduReach — Learning Management System</h3>
