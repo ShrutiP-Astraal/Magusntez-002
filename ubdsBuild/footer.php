@@ -48,7 +48,7 @@ Our team combines creativity, innovation, and cutting-edge technology to build s
           <li><a href="blog.php">Insights</a></li>
           <li><a href="pricing.php">Pricing</a></li>
           <li><a href="contact.php">Contact</a></li>
-          <li><a href="privacy-policy">Privacy Policy</a></li>
+          <li><a href="privacy-policy.php">Privacy Policy</a></li>
         </ul>
       </div>
     </div>
