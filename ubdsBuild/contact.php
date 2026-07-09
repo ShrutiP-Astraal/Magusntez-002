@@ -200,10 +200,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <a href="#" class="btn-primary" style="display:inline-flex;margin-top:1.5rem">Start Chat</a>
       </div>
       <div class="card" style="text-align:center">
-        <div style="font-size:2.5rem;margin-bottom:1rem">in</div>
-        <h3>LinkedIn</h3>
-        <p>Connect with us on LinkedIn for project enquiries, studio updates, and our latest articles and case studies.</p>
-        <a href="#" class="btn-primary" style="display:inline-flex;margin-top:1.5rem">Find Us on LinkedIn →</a>
+        <div style="font-size:2.5rem;margin-bottom:1rem">📷</div>
+        <h3>Instagram</h3>
+        <p>Connect with us on Instagram for project enquiries, studio updates,our latest articles,case studies and the latest innovations.</p>
+        <a href="#" class="btn-primary" style="display:inline-flex;margin-top:1.5rem">Instagram →</a>
       </div>
     </div>
   </div>

@@ -40,7 +40,7 @@
                     </a>
                     <a class="btn btn-outline-light btn-sm me-2" 
                        href="https://www.instagram.com/magusnetz/" target="_blank">
-                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-instagram" style="color:#E1306C;"></i>
                     </a>
                     <a class="btn btn-outline-light btn-sm" href="#">
                         <i class="bi bi-linkedin"></i>
