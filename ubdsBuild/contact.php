@@ -202,7 +202,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <div class="card" style="text-align:center">
         <div style="font-size:2.5rem;margin-bottom:1rem">📷</div>
         <h3>Instagram</h3>
-        <p>Connect with us on Instagram for project enquiries, studio updates,our latest articles,case studies and the latest innovations.</p>
+        <p>Connect with us on Instagram for project enquiries, studio updates, and our latest articles and case studies.</p>
         <a href="#" class="btn-primary" style="display:inline-flex;margin-top:1.5rem">Instagram →</a>
       </div>
     </div>
